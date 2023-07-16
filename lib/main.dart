@@ -11,48 +11,34 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.red,
+        backgroundColor: Colors.teal,
         body: SafeArea(
-          child: Column (
-            mainAxisSize: MainAxisSize.max,
-            crossAxisAlignment: CrossAxisAlignment.stretch,
+          child: Row (
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Container(
-                height: 100.0,
-                color: Colors.white,
-                padding: EdgeInsets.all(16),
-                margin: EdgeInsets.symmetric(horizontal: 20.0),
-                child: Text("Name: Luqman hakim"),
+                width: 100.0,
+                color: Colors.red,
               ),
-              SizedBox(height: 8),
-              Container(
-                height: 100.0,
-                color: Colors.white,
-                padding: EdgeInsets.all(16),
-                margin: EdgeInsets.symmetric(horizontal: 20.0),
-                child: Text("Type: Human"),
-              ),
-              SizedBox(height: 24),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              Column(
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Container(
-                    color: Colors.white,
-                    padding: EdgeInsets.all(16),
-                    child: Text("weight: \n85.0 Kg"),
+                    width: 100.0,
+                    height: 100.0,
+                    color: Colors.yellow,
                   ),
                   Container(
-                    color: Colors.white,
-                    padding: EdgeInsets.all(16),
-                    child: Text("height: \n180.0 Cm"),
+                    width: 100.0,
+                    height: 100.0,
+                    color: Colors.green,
                   ),
-                  Container(
-                    color: Colors.white,
-                    padding: EdgeInsets.all(16),
-                    child: Text("ability: \nNgoding"),
-                  )
                 ],
-              )
+              ),
+              Container(
+                width: 100.0,
+                color: Colors.blue,
+              ),
             ],
           ),
         ),
