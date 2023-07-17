@@ -36,10 +36,10 @@ class MyApp extends StatelessWidget {
               Card(
                 margin: EdgeInsets.symmetric(vertical: 10, horizontal: 16),
                 child: ListTile(
-                  leading: Icon(
-                    Icons.phone,
-                    color: Colors.teal,
-                    size: 30,
+                  leading: Container(
+                    child: Image.asset("images/github.png"),
+                    color: Colors.white,
+                    width: 30,
                   ),
                   title: Text(
                     "098979879897",
