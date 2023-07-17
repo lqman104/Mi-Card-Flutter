@@ -42,7 +42,7 @@ class MyApp extends StatelessWidget {
                     width: 30,
                   ),
                   title: Text(
-                    "098979879897",
+                    "github.com/lqman104",
                     style: TextStyle(
                         color: Colors.teal.shade900,
                         fontSize: 20,
@@ -55,7 +55,7 @@ class MyApp extends StatelessWidget {
                 child: ListTile(
                   leading: Icon(
                     Icons.email,
-                    color: Colors.teal,
+                    color: Colors.black,
                     size: 30,
                   ),
                   title: Text(
